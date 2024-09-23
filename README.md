@@ -7,3 +7,11 @@
 #
 # To run tests: run this command
 # java -cp "junit-4.13.2.jar:hamcrest-core-1.3.jar:./src/" org.junit.runner.JUnitCore u.# HybridTests
+
+# Lab 2 instructions
+# ensure you are in the lab2 directory (FKA consumerBanking)
+# To compile: 
+# mvn clean compile
+#
+# To run tests: run this command
+# mvn test
