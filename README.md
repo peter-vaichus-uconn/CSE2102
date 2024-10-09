@@ -15,3 +15,15 @@
 #
 # To run tests: run this command
 # mvn test
+
+# Lab 3 instructions
+# ensure you are in the lab3 directory 
+# To compile: 
+# mvn clean compile
+#
+# To run tests: run this command
+# mvn test
+#
+# To run main:
+# Compile all classes with javac
+# Run main.class with java 
