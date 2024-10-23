@@ -27,3 +27,14 @@
 # To run main:
 # Compile all classes with javac
 # Run main.class with java 
+
+# Lab 4 instructions
+# run "python3 my_server.py" to get the server up and running
+# change the port to public
+# open up another terminal
+# run "python3 my_calls.py" to make http post calls to the server with the imbedded credentials
+# with the current set up, the first three credentials will succeed and the last one will fail
+# to test tokens:
+# copy the outputed token and enter it as a command line argument in the following manner
+# python3 secret.py token
+# this will return "valid token" or "invalid token" depending on the token entered

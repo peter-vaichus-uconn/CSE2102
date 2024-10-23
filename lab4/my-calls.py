@@ -17,8 +17,8 @@ def test_auth(loginData):
 loginData = [
     {"username": "peter", "password": "qwerty"},
     {"username": "john", "password": "123456"},
-    {"username": "adam", "password": "password"},
-    {"username": "luke", "password": "password123"}
+    {"username": "adam", "password": "passwor"},
+    {"username": "luke", "password": "password12"}
 ]
 
 
