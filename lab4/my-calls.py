@@ -1,25 +1,26 @@
 import httpx
 
-url = "https://bug-free-system-q7p7wx6j7g629vj7-5000.app.github.dev/"
-
-response = httpx.get(url)
-print(response.status_code)
-print(response)
+url = "https://organic-waddle-pjgv96qpxwrgc7v6r-5000.app.github.dev/"
 
 
+def test_auth(loginData):
+    for credentials in loginData:
+        response = httpx.post(url + "login", data=credentials)
+        if response.status_code == 200:
+            print("successful login")
+            print(response.text + "\n")
+        else:
+            print("failed login")
+            print(response.status_code)
+    
 
-response = httpx.get(url)
-print(response.status_code)
-print(response.text)
+loginData = [
+    {"username": "peter", "password": "qwerty"},
+    {"username": "john", "password": "123456"},
+    {"username": "adam", "password": "password"},
+    {"username": "luke", "password": "password123"}
+]
 
-mydata = {
-    "text": "Hello!",
-    "param2": "Making a POST request",
-    "body": "my own value"
-}
 
-# A POST request to the API
-response = httpx.post(url, data=mydata)
+test_auth(loginData)
 
-# Print the response
-print(response.text) 
