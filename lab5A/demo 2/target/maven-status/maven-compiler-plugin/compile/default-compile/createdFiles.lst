@@ -5,6 +5,5 @@ com/example/demo/model/GetQuestion.class
 com/example/demo/DemoApplication.class
 com/example/demo/controller/HomeController.class
 com/example/demo/model/Greeting.class
-com/example/demo/controller/LoginController.class
 com/example/demo/model/questions/CurrentQuestionTrueFalse.class
 com/example/demo/model/MyString.class

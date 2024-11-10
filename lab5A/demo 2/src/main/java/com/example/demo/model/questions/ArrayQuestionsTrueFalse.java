@@ -19,5 +19,10 @@ public class ArrayQuestionsTrueFalse {
     public QuestionTrueFalse nextQuestion(int i) {
         return arrayListQuestionsTF.get(i % totalQuestions);
     }
+
+    public int getTotalQuestions() {
+        return totalQuestions;
+    }
+    
     
 }
